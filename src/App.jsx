@@ -1,9 +1,12 @@
+import SearchBar from './Components/SearchBar';
 import './App.css';
 
 function App() {
-	console.log(import.meta.env.VITE_API_KEY);
 
-	return <>{}</>;
+	return <>
+	<SearchBar />
+	</>;
+
 }
 
 export default App;
