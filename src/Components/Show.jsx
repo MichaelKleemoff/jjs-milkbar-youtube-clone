@@ -1,11 +1,5 @@
-
-import React from 'react'
-
 function Show() {
-  return (
-    <div>Show</div>
-  )
+  return <div>Show Page</div>;
 }
 
-export default Show
-
+export default Show;
