@@ -1,7 +1,9 @@
 import './App.css';
 
 function App() {
-	return <></>;
+	console.log(import.meta.env.VITE_API_KEY);
+
+	return <>{}</>;
 }
 
 export default App;
