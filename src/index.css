@@ -1,26 +1,65 @@
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 header {
-  text-align: left;
+  background: #f3e8ea;
+}
+.logo {
+  float: left;
+  padding: 12px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  color: #444;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   text-transform: uppercase;
-  padding-top: 32px;
-  padding-bottom: 170px;
-  padding-left: 32px;
-  padding-right: 32px;
-  background: #f70d1a;
-  color: #fff;
-  border-bottom: 4px solid #fdb347;
 }
-.btn {
-  display: grid;
-  grid-template-columns: repeat(25, 1fr);
-  gap: 50px;
-  margin-right: 1700px;
-  margin-top: 10p;
-  padding: 10px 400px;
+nav li {
+  display: inline-block;
+  margin-left: -1230px;
+  padding-top: 50px;
+  margin-right: 1300px;
+  position: relative;
 }
-a {
-  font-family: sans-serif;
-  color: white;
-  margin-right: 10px;
-  margin-top: 10px;
-  text-align: center;
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  padding: 1px 12px;
+  display: block;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #f70d1a;
+  position: absolute;
+  width: 0%;
+  top: 0;
+}
+
+nav a:hover::before {
+  width: 67%;
+  transition: all ease-in-out 250ms;
 }
