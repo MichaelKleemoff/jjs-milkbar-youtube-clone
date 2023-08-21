@@ -1,0 +1,42 @@
+#homeLink {
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#aboutLink {
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  align-items: flex-end;
+}
+
+#header {
+  background-color: #3a0000;
+  width: 100%;
+  border-width: 0;
+  max-height: 60px;
+  column-gap: 20px;
+  align-items: flex-end;
+}
+
+.mx-2 {
+  color: #16e6f9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+}
+
+.container {
+  max-width: 1200px;
+  max-height: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+#logo-bar {
+  justify-content: flex-start;
+}
