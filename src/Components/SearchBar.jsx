@@ -7,7 +7,7 @@ function SearchBar() {
     const [search, setSearch] = useState("");
   async function handleFetch() {
     try {
-      let result = await axios.get(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${search}&key=AIzaSyBDMUu_WCHI0Lt73d9FEQkr95H4YhEv2n0&maxResults=20`)
+      let result = await axios.get(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${search}&key=AIzaSyBDMUu_WCHI0Lt73d9FEQkr95H4YhEv2n0&maxResults=8`)
          //console.log(result.data.items);
 		 setResults(result.data.items);
     }
