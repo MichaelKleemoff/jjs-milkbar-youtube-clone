@@ -3,11 +3,11 @@
   padding: 0px 0px 0px -400px;
 }
 
-header::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
+  color-scheme: light dark;
+  color: rgba(8, 8, 8, 0.87);
+  background-color: #ffffff;
+
 
 .container {
   width: 80%;
