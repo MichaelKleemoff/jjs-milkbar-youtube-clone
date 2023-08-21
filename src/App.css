@@ -1,6 +1,6 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0;
   padding: 2rem;
   text-align: center;
 }
@@ -39,4 +39,20 @@
 
 .read-the-docs {
   color: #888;
+}
+
+#About {
+  margin-top: 50px;
+  margin-left: 45px;
+  margin-right: 45px;
+  min-height: 1200px;
+  max-width: 1200px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+h5 {
+  color: darkblue;
+  font-weight: bolder;
+  font-size: x-large;
 }
