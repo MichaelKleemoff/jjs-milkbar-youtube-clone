@@ -1,9 +1,9 @@
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
 import NavBar from "./Components/NavBar.jsx";
 import Show from "./Components/Show.jsx";
+import SearchBar from "./Components/SearchBar";
 import "./App.css";
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home apiUrl={apiUrl} apiKey={apiKey} />} />
+          <Route path="/SearchBar" element={<SearchBar />} />
           <Route path="/about" element={<About />} />
           <Route
             path="/videos/:id"
@@ -25,9 +26,6 @@ function App() {
       </Router>
     </div>
   );
-
-
-
 }
 
 export default App;
