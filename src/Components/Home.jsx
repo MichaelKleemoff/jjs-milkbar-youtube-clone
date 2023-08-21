@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 const Home = () => { 
      
+    const [first, setfirst] = useState(second)
 
     return (
         <>
