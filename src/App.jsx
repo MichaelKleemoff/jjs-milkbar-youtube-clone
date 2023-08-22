@@ -4,6 +4,7 @@ import About from './Components/About.jsx';
 import NavBar from './Components/NavBar.jsx';
 import Show from './Components/Show.jsx';
 import SearchBar from './Components/SearchBar';
+import Home from './Components/Home';
 import './App.css';
 
 function App() {
