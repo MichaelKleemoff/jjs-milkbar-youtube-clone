@@ -1,17 +1,21 @@
 
 import React from "react";
-import { useEffect, useState } from "react";
+// import { useState } from "react";
 
 
 const Home = () => { 
      
-    const [first, setfirst] = useState(second)
+   
 
     return (
         <>
-            <div>Home</div>
+            <div className="homeForm">
+                <button> Addd a Comment </button>
+            </div>
         </>
     )
  }
+
 export default Home;
+
 

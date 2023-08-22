@@ -1,9 +1,11 @@
+
 import { Link } from 'react-router-dom';
 import navBarLogo from '../images/yt_navBar_logo_red.png';
 import '../App.css';
 import './NavBar.css';
 
 function NavBar() {
+
 	return (
 		<>
 			<div className='container' id='header'>
@@ -23,6 +25,8 @@ function NavBar() {
 			</div>
 		</>
 	);
+
 }
 
 export default NavBar;
+
