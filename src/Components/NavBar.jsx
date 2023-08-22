@@ -4,6 +4,7 @@ import '../App.css';
 import './NavBar.css';
 
 function NavBar() {
+
 	return (
 		<>
 			<div className='container' id='header'>
@@ -23,6 +24,7 @@ function NavBar() {
 			</div>
 		</>
 	);
+
 }
 
 export default NavBar;
