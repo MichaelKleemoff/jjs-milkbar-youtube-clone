@@ -18,7 +18,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home apiUrl={apiUrl} apiKey={apiKey} />} />
-		  <Route path="/SearchBar" element={<SearchBar />} />
+          <Route path="/SearchBar" element={<SearchBar />} />
           <Route path="/about" element={<About />} />
           <Route
             path="/videos/:id"
