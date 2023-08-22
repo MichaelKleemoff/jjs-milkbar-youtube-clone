@@ -34,12 +34,7 @@ function About() {
               </a>
             </h5>
             <p>
-              I am a full-stack JavaScript developer from the Northeast Bronx. I
-              am passionate about learning new technologies and building
-              innovative solutions. I have a strong foundation in JavaScript,
-              CSS, and HTML, and I am also proficient in Java and C#. I am
-              currently working on expanding my knowledge of React, Node.js, and
-              other backend technologies.
+              I am currently working on expanding my knowledge of React, Node.js, and other backend technologies.
             </p>
           </li>
           <li className="list-container">
