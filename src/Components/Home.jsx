@@ -5,7 +5,7 @@ function Home() {
     <>
       <br />
       <SearchBar />;
-      <div className="homeForm"></div>
+      
     </>
   );
 }
