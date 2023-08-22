@@ -1,5 +1,5 @@
-function Show() {
-  return <div>Show Page</div>;
-}
+const Show = () => {
+	return <div>Show</div>;
+};
 
 export default Show;
