@@ -33,7 +33,9 @@ function About() {
                 Alvin Johnson
               </a>
             </h5>
-            <p>I am currently working on expanding my knowledge of React, Node.js, and other backend technologies.</p>
+            <p>
+              I am currently working on expanding my knowledge of React, Node.js, and other backend technologies.
+            </p>
           </li>
           <li className="list-container">
             <h5>
