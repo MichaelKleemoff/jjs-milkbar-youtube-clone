@@ -1,4 +1,5 @@
-
+.env
+package-lock.json
 
 # Logs
 logs
@@ -25,5 +26,4 @@ dist-ssr
 *.sln
 *.sw?
 
-.env
-package-lock.json
+

@@ -1,22 +1,22 @@
 #root {
   max-width: 1280px;
   margin: 0;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 60px;
+  /* padding: 1.5em; */
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+/* .logo:hover {
   filter: drop-shadow(0 0 2em #fcf404aa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #7bf6ffaa);
-}
+} */
 
 @keyframes logo-spin {
   from {
@@ -47,7 +47,6 @@
   margin-right: 45px;
   min-height: 1200px;
   max-width: 1200px;
-  font-family: cursive;
   font-weight: bold;
 }
 
@@ -55,4 +54,31 @@ h5 {
   color: rgb(151, 216, 247);
   font-weight: bolder;
   font-size: x-large;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 1500px;
+  padding-top: 25px;
+}
+
+.btn-outline-primary {
+  color: #01176f;
+  background-color: #16e6f9;
+  font-weight: bold;
+}
+
+.font-link {
+  font-family: "Advent Pro", sans-serif;
+}
+
+.list-container {
+  text-align: left;
+}
+
+.youtube-bullet {
+  list-style-image: url("~react-icons/bs/BsYoutube.css");
 }

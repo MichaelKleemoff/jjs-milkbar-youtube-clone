@@ -1,7 +1,12 @@
 import SearchBar from "./SearchBar.jsx";
 
 function Home() {
-  return <SearchBar />;
+  return (
+    <>
+      <br />
+      <SearchBar />;
+    </>
+  );
 }
 
 export default Home;

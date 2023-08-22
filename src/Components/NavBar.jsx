@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <>
       <div className="container" id="header">
-        <div className="mr-auto p-2 bd-highlight">
+        <div className="logo">
           <img src={navBarLogo} alt="YouTube Logo" height="60" id="logo-bar" />
         </div>
         <div className="d-flex align-items-center" id="homeLink">
