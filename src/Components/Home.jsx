@@ -1,22 +1,13 @@
 import SearchBar from './SearchBar.jsx';
 
-
-
-
-const Home = () => { 
-     
-   
-
-    return (
-        <>
-             <SearchBar />
-            <div className="homeForm">
-                <button> Addd a Comment </button>
-            </div>
-        </>
-    )
- }
+function Home() {
+  return (
+    <>
+      <br />
+      <SearchBar />;
+      <div className="homeForm">
+    </>
+  );
+}
 
 export default Home;
-
-

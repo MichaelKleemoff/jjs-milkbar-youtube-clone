@@ -1,4 +1,5 @@
 
+
 import { useState } from 'react';
 import axios from 'axios';
 
@@ -58,7 +59,4 @@ function SearchBar() {
 }
 
 export default SearchBar;
-
-
-
 
