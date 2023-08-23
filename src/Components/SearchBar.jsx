@@ -5,8 +5,9 @@ export default function SearchBar() {
   const [results, setResults] = useState([]);
   const [search, setSearch] = useState("");
   const [maxResults, setMaxResults] = useState(8);
-  //   const apiKey = import.meta.env.VITE_API_KEY;
 
+  const apiKey = import.meta.env.VITE_API_KEY;
+  console.log(apiKey);
   function handleMaxResults(event) {
     setMaxResults(event.target.value);
   }
@@ -14,7 +15,7 @@ export default function SearchBar() {
   async function handleFetch() {
     try {
       let result = await axios.get(
-        `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${search}&key=AIzaSyBDMUu_WCHI0Lt73d9FEQkr95H4YhEv2n0&maxResults=${maxResults}`
+        `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${search}&key=${apiKey}&maxResults=${maxResults}`
       );
       //console.log(result.data.items);
       setResults(result.data.items);
