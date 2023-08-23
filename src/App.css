@@ -82,3 +82,10 @@ h5 {
 .youtube-bullet {
   list-style-image: url("~react-icons/bs/BsYoutube.css");
 }
+
+#alert-style {
+  margin-top: 10px;
+  background-color: #520202;
+  color: #fdf905;
+  font-weight: bold;
+}
