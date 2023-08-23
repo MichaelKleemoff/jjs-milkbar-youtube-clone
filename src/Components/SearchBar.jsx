@@ -47,6 +47,7 @@ export default function SearchBar() {
           <input
             type="number"
             placeholder="1"
+            min="1"
             max="50"
             step="1"
             onChange={handleMaxResults}
@@ -61,11 +62,13 @@ export default function SearchBar() {
             Search
           </button>
         </form>
+        {!results.length && (
+          <div className="alert alert-light" role="alert" id="alert-style">
+            No search results yet! Please submit a search above!
+          </div>
+        )}
       </div>{" "}
       <br />
-      <div className="alert alert-light" role="alert">
-        No Search Results Yet!, Please submit a search above!
-      </div>
       {results.map(({ etag, snippet }) => {
         return (
           <div key={etag} className="card" style={{ width: "18rem" }}>
