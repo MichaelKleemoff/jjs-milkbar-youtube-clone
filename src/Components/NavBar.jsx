@@ -13,7 +13,7 @@ function NavBar() {
 					<img src={navBarLogo} alt='YouTube Logo' height='60' id='logo-bar' />
 				</div>
 				<div className='d-flex align-items-center' id='homeLink'>
-					<Link classNameq='mx-2' to='/'>
+					<Link className='mx-2' to='/'>
 						Home
 					</Link>{' '}
 				</div>
