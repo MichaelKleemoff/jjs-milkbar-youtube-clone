@@ -10,9 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.1",
+>>>>>>> 4084355b0ed242f5cd2096867cb5ca6ea8d9f023
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
-    "axios": "^1.4.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0"
   },

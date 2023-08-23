@@ -11,20 +11,22 @@ function App() {
   const apiKey = import.meta.env.VITE_API_KEY;
 
   return (
-    <div className="App">
+    <div className='App'>
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home apiUrl={apiUrl} apiKey={apiKey} />} />
-          <Route path="/SearchBar" element={<SearchBar />} />
-          <Route path="/about" element={<About />} />
+          <Route path='/' element={<Home apiUrl={apiUrl} apiKey={apiKey} />} />
+          <Route path='/SearchBar' element={<SearchBar />} />
+          <Route path='/about' element={<About />} />
           <Route
-            path="/videos/:id"
+            path='/videos/:id'
             element={<Show apiUrl={apiUrl} apiKey={apiKey} />}
           />
         </Routes>
       </Router>
     </div>
   );
+
 }
+
 export default App;
