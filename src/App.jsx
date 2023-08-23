@@ -1,12 +1,10 @@
-
-
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Components/Home.jsx";
-import About from "./Components/About.jsx";
-import NavBar from "./Components/NavBar.jsx";
-import Show from "./Components/Show.jsx";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Components/Home.jsx';
+import About from './Components/About.jsx';
+import NavBar from './Components/NavBar.jsx';
+import Show from './Components/Show.jsx';
 import SearchBar from './Components/SearchBar';
-import "./App.css";
+import './App.css';
 
 function App() {
   const apiUrl = import.meta.env.VITE_API_BASE_URL;
@@ -28,12 +26,5 @@ function App() {
       </Router>
     </div>
   );
-
 }
-
-
-
-
 export default App;
-
-

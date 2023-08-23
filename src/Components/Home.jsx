@@ -1,7 +1,21 @@
-import SearchBar from "./SearchBar.jsx";
 
-function Home() {
-  return <SearchBar />;
-}
+import React from "react";
+// import { useState } from "react";
+
+
+const Home = () => { 
+     
+   
+
+    return (
+        <>
+            <div className="homeForm">
+                <button> Addd a Comment </button>
+            </div>
+        </>
+    )
+ }
 
 export default Home;
+
+
