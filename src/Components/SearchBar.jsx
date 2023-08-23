@@ -1,8 +1,4 @@
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4084355b0ed242f5cd2096867cb5ca6ea8d9f023
 import { useState } from 'react';
 import axios from 'axios';
 
@@ -62,10 +58,4 @@ function SearchBar() {
 }
 
 export default SearchBar;
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 4084355b0ed242f5cd2096867cb5ca6ea8d9f023
 
