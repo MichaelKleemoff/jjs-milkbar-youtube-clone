@@ -11,7 +11,7 @@ This is a JavaScript-based YouTube clone built using React. The application allo
 ### [Trello](https://trello.com/b/fCxFRAyj/jjs-milkbar)
 ## Deployment
 
-###  [Netlify](URL_Netlify)
+###  [Netlify](https://jjs-milkbar-youtube-clone.netlify.app/)
 
 
 
