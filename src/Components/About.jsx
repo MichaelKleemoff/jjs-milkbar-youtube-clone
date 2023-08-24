@@ -23,9 +23,9 @@ function About() {
         </div>
         <br />
         <br />
-        <h4>
+        <h3>
           <strong>About the developers...</strong>
-        </h4>
+        </h3>
         <ul className="youtube-bullet">
           <li className="list-container">
             <h5>
@@ -34,7 +34,8 @@ function About() {
               </a>
             </h5>
             <p>
-              I am currently working on expanding my knowledge of React, Node.js, and other backend technologies.
+              I am currently working on expanding my knowledge of React,
+              Node.js, and other backend technologies.
             </p>
           </li>
           <li className="list-container">
