@@ -7,7 +7,7 @@ export default function SearchBar() {
   const [maxResults, setMaxResults] = useState(8);
 
   const apiKey = import.meta.env.VITE_API_KEY;
-  console.log(apiKey);
+
   function handleMaxResults(event) {
     setMaxResults(event.target.value);
   }
@@ -36,14 +36,16 @@ export default function SearchBar() {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            className="form-control"
+            className="search-bar"
             placeholder="Search..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             aria-label="Search"
             aria-describedby="search-addon"
           />
-          <label htmlFor="results">Max Results</label>
+          <label htmlFor="results" style={{ marginRight: "5px" }}>
+            Max Results
+          </label>
           <input
             type="number"
             placeholder="1"
@@ -62,6 +64,7 @@ export default function SearchBar() {
             Search
           </button>
         </form>
+        <br />
         {!results.length && (
           <div className="alert alert-light" role="alert" id="alert-style">
             No search results yet! Please submit a search above!
@@ -69,20 +72,22 @@ export default function SearchBar() {
         )}
       </div>{" "}
       <br />
-      {results.map(({ etag, snippet }) => {
-        return (
-          <div key={etag} className="card" style={{ width: "18rem" }}>
-            <img
-              src={snippet.thumbnails.high.url}
-              className="card-img-top"
-              alt={snippet.channelTitle}
-            />
-            <div className="card-body">
-              <h2 className="card-text">{snippet.title}</h2>
+      <div className="video-grid">
+        {results.map(({ etag, snippet }) => {
+          return (
+            <div key={etag} className="card" style={{ width: "18rem" }}>
+              <img
+                src={snippet.thumbnails.high.url}
+                className="card-img-top"
+                alt={snippet.channelTitle}
+              />
+              <div className="card-body">
+                <h2 className="card-text">{snippet.title}</h2>
+              </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 }

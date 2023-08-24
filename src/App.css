@@ -63,16 +63,18 @@ h5 {
   /* justify-content: center; */
   min-height: 1500px;
   padding-top: 25px;
+  align-content: center;
 }
 
 .btn-outline-primary {
   color: #01176f;
   background-color: #16e6f9;
   font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px -2px 11px 21px inset;
 }
 
 .font-link {
-  font-family: "Advent Pro", sans-serif;
+  font-family: "Handlee", cursive;
 }
 
 .list-container {
@@ -85,7 +87,89 @@ h5 {
 
 #alert-style {
   margin-top: 10px;
-  background-color: #520202;
-  color: #fdf905;
+  border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+  border: 3px solid #031157;
+  color: #02fff7;
+  background-color: rgb(129, 5, 5);
   font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#playVideo {
+  vertical-align: top;
+  margin-top: 25px;
+  min-height: 1200px;
+  width: 100%;
+}
+
+.videos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 1500px;
+  padding-top: 25px;
+}
+
+.search-bar {
+  margin-right: 25px;
+  padding-left: 25px;
+  padding-right: 15px;
+  border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+  border: 3px solid #12066e;
+}
+
+.video-grid {
+  display: grid;
+  /* setting the number of columns here to two. */
+  grid-template-columns: 500px 500px;
+  /* adding some space between the videos */
+  grid-gap: 50px;
+  margin-top: 25px;
+  justify-items: center;
+}
+
+.video-grid ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.video-grid ul img {
+  max-width: 100%;
+  width: 480px;
+  height: 360px;
+}
+
+.card-text {
+  font-size: small;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.input-group {
+  margin-left: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.max-result {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.btn-outline-primary {
+  margin-right: 400px;
+  margin-left: 15px;
+}
+
+h3 {
+  text-align: left;
+  margin-left: 20px;
 }
